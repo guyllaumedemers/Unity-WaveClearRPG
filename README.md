@@ -11,7 +11,8 @@
     * Behaviour Tree
   * Inventory System
     * ScriptablesObjects
-  * UI
+  * Spawner System
+  * UI Management
   * Audio Management
   * Animation Management
   * Level Management (Map)
