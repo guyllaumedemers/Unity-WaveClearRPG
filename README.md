@@ -7,12 +7,11 @@
   * Nav Mesh System
   * AStar
   * Input System
-  * Action System
   * AI
     * Behaviour Tree
   * Inventory System
     * ScriptablesObjects
-  * UI Management
+  * UI
   * Audio Management
   * Animation Management
   * Level Management (Map)
