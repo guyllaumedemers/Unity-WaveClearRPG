@@ -1,0 +1,34 @@
+tree("Root")
+	sequence
+		while
+			IsAlive
+			repeat
+				parallel
+					while
+						HasAggro
+						repeat tree("Wander")
+					repeat EnablePathfinding
+					repeat tree("Chasing")
+
+tree("Wander")
+	sequence
+		parallel
+			CheckForAggro
+			Wander
+
+tree("Chasing")
+	sequence
+		while
+			IsChasingPlayer
+			repeat
+				sequence
+					IsAttackDistance
+					Attack
+					Wait 2.0
+
+	
+
+			
+				
+		
+

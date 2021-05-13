@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b234abd40d59aee49acf48bdaea97b3a, type: 3}
+  m_Name: Storage_Inventory
+  m_EditorClassIdentifier: 
+  _databaseObject: {fileID: 11400000, guid: a9d14bec0d573de44b24fef9287d347a, type: 2}
+  _container:
+    _itemsList:
+    - _id: -1
+      _item:
+        _id: 0
+        _name: 
+      _amount: 0
+      _parent: {fileID: 0}
+    - _id: -1
+      _item:
+        _id: 0
+        _name: 
+      _amount: 0
+      _parent: {fileID: 0}
+    - _id: -1
+      _item:
+        _id: 0
+        _name: 
+      _amount: 0
+      _parent: {fileID: 0}
+    - _id: -1
+      _item:
+        _id: 0
+        _name: 
+      _amount: 0
+      _parent: {fileID: 0}
+    - _id: -1
+      _item:
+        _id: 0
+        _name: 
+      _amount: 0
+      _parent: {fileID: 0}
+    - _id: -1
+      _item:
+        _id: 0
+        _name: 
+      _amount: 0
+      _parent: {fileID: 0}
+    - _id: -1
+      _item:
+        _id: 0
+        _name: 
+      _amount: 0
+      _parent: {fileID: 0}
+    - _id: -1
+      _item:
+        _id: 0
+        _name: 
+      _amount: 0
+      _parent: {fileID: 0}
+    - _id: -1
+      _item:
+        _id: 0
+        _name: 
+      _amount: 0
+      _parent: {fileID: 0}
+    - _id: -1
+      _item:
+        _id: 0
+        _name: 
+      _amount: 0
+      _parent: {fileID: 0}
+    - _id: -1
+      _item:
+        _id: 0
+        _name: 
+      _amount: 0
+      _parent: {fileID: 0}
+    - _id: -1
+      _item:
+        _id: 0
+        _name: 
+      _amount: 0
+      _parent: {fileID: 0}
+    - _id: -1
+      _item:
+        _id: 0
+        _name: 
+      _amount: 0
+      _parent: {fileID: 0}
+    - _id: -1
+      _item:
+        _id: 0
+        _name: 
+      _amount: 0
+      _parent: {fileID: 0}
+    - _id: -1
+      _item:
+        _id: 0
+        _name: 
+      _amount: 0
+      _parent: {fileID: 0}
+    - _id: -1
+      _item:
+        _id: 0
+        _name: 
+      _amount: 0
+      _parent: {fileID: 0}
+    - _id: -1
+      _item:
+        _id: 0
+        _name: 
+      _amount: 0
+      _parent: {fileID: 0}
+    - _id: -1
+      _item:
+        _id: 0
+        _name: 
+      _amount: 0
+      _parent: {fileID: 0}
+    - _id: -1
+      _item:
+        _id: 0
+        _name: 
+      _amount: 0
+      _parent: {fileID: 0}
+    - _id: -1
+      _item:
+        _id: 0
+        _name: 
+      _amount: 0
+      _parent: {fileID: 0}
+    - _id: -1
+      _item:
+        _id: 0
+        _name: 
+      _amount: 0
+      _parent: {fileID: 0}
+    - _id: -1
+      _item:
+        _id: 0
+        _name: 
+      _amount: 0
+      _parent: {fileID: 0}
+    - _id: -1
+      _item:
+        _id: 0
+        _name: 
+      _amount: 0
+      _parent: {fileID: 0}
+    - _id: -1
+      _item:
+        _id: 0
+        _name: 
+      _amount: 0
+      _parent: {fileID: 0}
