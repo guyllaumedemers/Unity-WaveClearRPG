@@ -2,7 +2,7 @@
 
 ## RPG Game
 
-* Meachanic and Features
+* Mechanic and Features
 
   * Nav Mesh System
   * AStar
