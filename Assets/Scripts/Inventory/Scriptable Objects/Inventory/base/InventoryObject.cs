@@ -16,7 +16,6 @@ public class InventoryObject : ScriptableObject
         bool hasItem = false;
         for (int i = 0; i < _container._itemsList.Length; i++)
         {
-            // Quand le Item Minor Health Potion -> Item._id = 0 est ajouté, il n'initialise pas le ID du Inventory Slot 
             if (_container._itemsList[i]._item._id.Equals(item._id))
             {
                 //Debug.Log("Already in Inventory Array, amount++ : " + _container._itemsList[i]._item._id + " ");
@@ -38,10 +37,11 @@ public class InventoryObject : ScriptableObject
         {
             // when the id of the InventorySlot == -1, it means the inventory slot is empty, so we fill the inventory slot 
             // with the one from the object we collided with
-            if (_container._itemsList[i]._id.Equals(-1))
+            if (_container._itemsList[i]._item._id.Equals(-1))
             {
-                //Debug.Log("Added : ");
+                //Debug.Log($"i {i} item id : {item._id}");
                 _container._itemsList[i].UpdateSlot(i, item, amount);
+                //Debug.Log($"item returned {_container._itemsList[i]._item._name}");
                 return _container._itemsList[i];
             }
         }

@@ -56,7 +56,7 @@ public class Player : MonoBehaviour
 
         float damageReceived = amount / (playerStats.defense / 5);
 
-        Debug.Log("Damage received: " + damageReceived);
+        //Debug.Log("Damage received: " + damageReceived);
 
         playerStats.ChangeHealth(-damageReceived);
         if (playerStats.currentHealth <= 0 && !_isDead) {
