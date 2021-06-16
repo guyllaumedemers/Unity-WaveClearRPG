@@ -1,6 +1,6 @@
 # Unity-Wave-Clear RPG
 
-Welcome to Unity-Wave-Clear RPG, a group project made in the academic field.</br>
+Welcome to Unity-Wave-Clear RPG, a group project made in the academic field using __Unity__ and __CSharp__.</br>
 Useful scripts are located in Assets/Scripts/..
 
 ## Getting Started
