@@ -5,7 +5,7 @@ Useful scripts are located in Assets/Scripts/..
 
 ## Getting Started
 
-This repository has for objective of showcasing what could be achieve with a group of four individuals under a week.
+This repository has for objective of showcasing what could be achieve with a group of three individuals under a week.
 Some of the features presented here are obviously not mine and I won't take credit for them. __A detail list of the features I worked on will follow.__
 
 ## Content
