@@ -1,22 +1,46 @@
-# Unity Wave-Clear RPG
+# Unity-Wave-Clear RPG
 
-## RPG Game
+Welcome to Unity-Wave-Clear RPG, a group project made in the academic field.</br>
+Useful scripts are located in Assets/Scripts/..
 
-* Mechanic and Features
+## Getting Started
 
-  * Nav Mesh System
-  * AStar
-  * Input System
-  * AI
-    * Behaviour Tree
-  * Inventory System
-    * ScriptablesObjects
-  * Spawner System
-  * UI Management
-  * Audio Management
-  * Animation Management
-  * Level Management (Map)
+This repository has for objective of showcasing what could be achieve with a group of four individuals under a week.
+Some of the features presented here are obviously not mine and I won't take credit for them. __A detail list of the features I worked on will follow.__
 
-## NOTES
+## Content
 
-SOME FEATURES WERE NOT DEVELOP BY ME. I AM ONLY RESPONSIBLE FOR THE AI / BEHAVIOUR TREE AND THE INVENTORY SYSTEM.
+```
+NOTE : Scripts created by myself can be found here.
+```
+```
+NOTE : Empty Scripts were meant to be additionnal features that couldn't be implemented due to the short period of time allowed for this project. 
+```
+
+* [Assets/Scripts/Inventory/DisplayInventory/base](https://github.com/guyllaumedemers/Unity-WaveClearRPG/tree/main/Assets/Scripts/Inventory/DisplayInventory/base) : Inventory UI 
+* [Assets/Scripts/Inventory/ScriptableObjects/Inventory/base](https://github.com/guyllaumedemers/Unity-WaveClearRPG/tree/main/Assets/Scripts/Inventory/Scriptable%20Objects/Inventory/base) : InventoryObject 👉 *base class of the inventory scriptableObject*</br>
+👉 *[item base class for serialzation can be found here](https://github.com/guyllaumedemers/Unity-WaveClearRPG/blob/main/Assets/Scripts/Inventory/Scriptable%20Objects/Items/ItemObject.cs)*
+* [Assets/Scripts/Inventory/Database](https://github.com/guyllaumedemers/Unity-WaveClearRPG/tree/main/Assets/Scripts/Inventory/Database) : Serialization of scriptableObjects 
+* [Assets/Scripts/Characters/Enemy](https://github.com/guyllaumedemers/Unity-WaveClearRPG/tree/main/Assets/Scripts/Characters/Enemy) : Behaviour Tree 👉 *can be found under the name BasicEnemyBehaviourTree*
+
+```
+NOTE : Serialization function are hold in the InventoryObject.cs available at the following path : 
+```
+
+#### Game Mechanics and Features
+
+* Nav Mesh System
+* A*
+* Input System
+* AI 👉 *using behaviour tree and a finite state machine*
+* Inventory System 👉 *using scriptableObjects*
+* Serialization (*of the inventory*)
+* Audio Management
+* Animation Management
+* Level Management / Scene Loading
+
+##### Contribution
+
+* AI 👉 *using behaviour tree only*
+* Inventory System (*using scriptableObjects*)
+* Serialization (*of the inventory*)
